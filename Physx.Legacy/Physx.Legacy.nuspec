@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Physx.Legacy</id>
+    <version>9.12.1031</version>
+    <title>NVIDIA PhysX Legacy System Software</title>
+    <authors>NVIDIA Corporation</authors>
+    <owners>Rasmus Kriest</owners>
+    <licenseUrl>http://www.nvidia.in/content/DriverDownload-March2009/licence.php</licenseUrl>
+    <projectUrl>http://www.nvidia.in/object/physx-9.12.1031-legacy-driver-in.html</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This installer is required for games released around the end of 2007. If a game released in that period worked correctly with PhysX System Software 9.12.0613 but no longer works with latter versions the legacy installer is required. This will be a onetime install. No future updates are expected since these games do not support GPU acceleration and do not require updates for future GPUs. Supports NVIDIA PhysX acceleration on GeForce for SDK versions 2.7.0 and prior as well as 2.7.2.</description>
+    <summary>Required PhysX for games released around the end of 2007.</summary>
+    <releaseNotes />
+    <copyright />
+    <tags>physx legacy grphics driver</tags>
+  </metadata>
+</package>
