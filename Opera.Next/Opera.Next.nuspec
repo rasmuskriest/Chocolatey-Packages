@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Opera.Next</id>
+    <version>22.0.1471.40</version>
+    <title>Opera Next</title>
+    <authors>Opera Software ASA.</authors>
+    <owners>Rasmus Kriest</owners>
+    <licenseUrl>http://www.opera.com/terms</licenseUrl>
+    <projectUrl>http://www.opera.com/computer/next</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Find something unexpected: The Discover feature gives you top-quality news and entertainment from around the globe. Find something unexpected from a variety of categories and read articles from your region, in your language. Keep what you find: Found something you'll want to come back to? Stash captures a page with one easy click and organizes your pages into a simple, sophisticated list. Scan your Stash by resizable page preview or search what you've saved by keywords.</description>
+    <summary>Opera Next releases, updated every couple of weeks, give you the latest refinements to the Opera browser. Follow our progress and test the latest features.</summary>
+    <releaseNotes />
+    <copyright />
+    <tags>opera next browser web</tags>
+  </metadata>
+</package>
