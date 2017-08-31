@@ -15,7 +15,9 @@
     <summary>Opera beta was formerly known as Opera Next.</summary>
     <description>Opera beta is what will become our next main release. It contains the features we intend to ship at a quality level resembling what we intend to ship. No new
 features or significant changes are introduced between the major releases. Release updates happens every week. The beta stream is what is often referee to, in development terms, as the testing stream.
+
 ### Note
+
 Opera beta was formerly known as Opera Next.
 This is just a metapackage for the latest Opera Beta. Have a look at the [opera-beta package](/packages/opera-beta) for more details.</description>
     <releaseNotes>Last release with fixed description and dependency on opera-beta</releaseNotes>
