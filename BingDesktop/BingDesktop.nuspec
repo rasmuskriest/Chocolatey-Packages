@@ -1,18 +1,22 @@
-<?xml version="1.0"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>BingDesktop</id>
-    <version>1.3.463.0</version>
+    <version>1.3.478.0</version>
+    <owners>Rasmus Kriest</owners>
     <title>Bing Desktop</title>
     <authors>Microsoft</authors>
-    <owners>Rasmus Kriest</owners>
-    <licenseUrl>http://windows.microsoft.com/en-us/windows-live/microsoft-services-agreement</licenseUrl>
     <projectUrl>http://www.bing.com/explore/desktop</projectUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Stay informed with easy access to—search results, Facebook newsfeed, weather, news—and the beauty of the Bing homepage on your PC desktop each day.</description>
+    <iconUrl>https://raw.githubusercontent.com/rasmuskriest/Chocolatey-Packages/master/BingDesktop/BingDesktop.png</iconUrl>
+    <licenseUrl>http://windows.microsoft.com/en-us/windows-live/microsoft-services-agreement</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/rasmuskriest/Chocolatey-Packages/tree/master/BingDesktop</projectSourceUrl>
     <summary>Bing Desktop</summary>
-    <releaseNotes />
-    <copyright />
+    <description>With the Bing Desktop app, you get the daily homepage image, quick access to search, the latest news, your Facebook newsfeed, and more, right where you want it - on your desktop.</description>
+    <releaseNotes>Update to latest release</releaseNotes>
     <tags>bingdesktop bing wallpaper search</tags>
   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>
