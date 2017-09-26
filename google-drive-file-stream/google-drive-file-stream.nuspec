@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>google-drive-file-stream</id>
+    <version>25.1.53.29</version>
+    <packageSourceUrl>https://github.com/rasmuskriest/Chocolatey-Packages/tree/master/google-drive-file-stream</packageSourceUrl>
+    <owners>Rasmus Kriest</owners>
+    <title>Google Drive File Stream</title>
+    <authors>Google Inc.</authors>
+    <projectUrl>https://www.google.com/drive/download/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/rasmuskriest/Chocolatey-Packages/master/google-drive-file-stream/google-drive-file-stream.png</iconUrl>
+    <copyright>2017</copyright>
+    <licenseUrl>https://www.google.com/intl/en/policies/terms/</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <tags>google-drive-file-stream admin googledrive google drive files</tags>
+    <summary>A new way to access all of your Google Drive files on demand, directly from your Mac or PC, without using up all of your disk space.</summary>
+    <description>With Drive File Stream, you stream your Drive files directly from the cloud to your Mac or PC, freeing up disk space and network bandwidth. Because Drive files are stored in the cloud, any changes you or your collaborators make are automatically updated everywhere. You’ll always have the latest version.
+
+You can also make Drive files available for offline access. These cached files sync back to the cloud when you're online, so the latest version is available on all your devices.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
