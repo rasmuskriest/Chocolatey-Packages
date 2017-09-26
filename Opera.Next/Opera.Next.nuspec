@@ -3,6 +3,7 @@
   <metadata>
     <id>Opera.Next</id>
     <version>32.0.1948.19</version>
+    <packageSourceUrl>https://github.com/rasmuskriest/Chocolatey-Packages/tree/master/Opera.Next</packageSourceUrl>
     <owners>Rasmus Kriest</owners>
     <title>[Deprecated] Opera Next</title>
     <authors>Opera Software ASA.</authors>
@@ -10,7 +11,6 @@
     <iconUrl>https://raw.githubusercontent.com/rasmuskriest/Chocolatey-Packages/master/Opera.Next/opera-next.png</iconUrl>
     <licenseUrl>http://www.opera.com/terms</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/rasmuskriest/Chocolatey-Packages/tree/master/Opera.Next</projectSourceUrl>
     <tags>opera next browser web</tags>
     <summary>Opera beta was formerly known as Opera Next.</summary>
     <description>Opera beta is what will become our next main release. It contains the features we intend to ship at a quality level resembling what we intend to ship. No new

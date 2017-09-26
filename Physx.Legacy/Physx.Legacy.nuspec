@@ -3,6 +3,7 @@
   <metadata>
     <id>Physx.Legacy</id>
     <version>9.13.0604</version>
+    <packageSourceUrl>https://github.com/rasmuskriest/Chocolatey-Packages/tree/master/Physx.Legacy</packageSourceUrl>
     <owners>Rasmus Kriest</owners>
     <title>NVIDIA PhysX Legacy System Software</title>
     <authors>NVIDIA Corporation</authors>
@@ -10,7 +11,6 @@
     <iconUrl>https://raw.githubusercontent.com/rasmuskriest/Chocolatey-Packages/master/Physx.Legacy/Physx.Legacy.png</iconUrl>
     <licenseUrl>http://www.nvidia.in/content/DriverDownload-March2009/licence.php</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/rasmuskriest/Chocolatey-Packages/tree/master/Physx.Legacy</projectSourceUrl>
     <tags>physx legacy grphics driver</tags>
     <summary>Required PhysX for games released around the end of 2007.</summary>
     <description>This installer is required for games released around the end of 2007. If a game released in that period worked correctly with PhysX System Software 9.12.0613 but no longer works with latter versions the legacy installer is required. This will be a onetime install. No future updates are expected since these games do not support GPU acceleration and do not require updates for future GPUs. Supports NVIDIA PhysX acceleration on GeForce for SDK versions 2.7.0 and prior as well as 2.7.2.</description>
