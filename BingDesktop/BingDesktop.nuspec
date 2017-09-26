@@ -15,6 +15,9 @@
     <summary>Bing Desktop</summary>
     <description>With the Bing Desktop app, you get the daily homepage image, quick access to search, the latest news, your Facebook newsfeed, and more, right where you want it - on your desktop.</description>
     <releaseNotes>Update to latest release</releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
