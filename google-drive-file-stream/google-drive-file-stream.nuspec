@@ -9,7 +9,6 @@
     <authors>Google Inc.</authors>
     <projectUrl>https://www.google.com/drive/download/</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/rasmuskriest/Chocolatey-Packages/master/google-drive-file-stream/google-drive-file-stream.png</iconUrl>
-    <copyright>2017</copyright>
     <licenseUrl>https://www.google.com/intl/en/policies/terms/</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <tags>google-drive-file-stream admin googledrive google drive files</tags>
