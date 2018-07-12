@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>google-drive-file-stream</id>
-    <version>25.157.185.3</version>
+    <version>25.252.303.31</version>
     <packageSourceUrl>https://github.com/rasmuskriest/Chocolatey-Packages/tree/master/google-drive-file-stream</packageSourceUrl>
     <owners>Rasmus Kriest</owners>
     <title>Google Drive File Stream</title>

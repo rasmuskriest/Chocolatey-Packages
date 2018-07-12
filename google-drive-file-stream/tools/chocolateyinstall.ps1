@@ -10,8 +10,8 @@ $packageArgs = @{
     fileType       = 'exe'
     url            = $url
     softwareName   = 'Google Drive File Stream*'
-    checksum       = '0d4edcaacebb63c877c05dc5778ffaf5'
-    checksumType   = 'md5'
+    checksum       = 'f00b77909cd339dcf0adc94c6b146e8110310023faa7a6ef378eaf11af954220'
+    checksumType   = 'sha256'
     silentArgs     = '--silent'
     validExitCodes = @(0)
 }
