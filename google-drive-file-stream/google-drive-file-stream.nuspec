@@ -27,6 +27,9 @@ With Drive File Stream, you can work with Drive files directly from the apps you
 
 [Android Client](https://play.google.com/store/apps/details?id=com.google.android.apps.docs) | [iOS Client](https://itunes.apple.com/app/google-drive/id507874739)</description>
   </metadata>
+  <dependencies>
+    <dependency id="kb3033929" />
+  </dependencies>
   <files>
     <file src="tools\**" target="tools" />
   </files>
