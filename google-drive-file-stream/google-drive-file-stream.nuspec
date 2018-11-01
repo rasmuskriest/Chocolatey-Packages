@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>google-drive-file-stream</id>
-    <version>25.252.303.31</version>
+    <version>27.1.49.1806</version>
     <packageSourceUrl>https://github.com/rasmuskriest/Chocolatey-Packages/tree/master/google-drive-file-stream</packageSourceUrl>
     <owners>Rasmus Kriest</owners>
     <title>Google Drive File Stream</title>
@@ -26,10 +26,10 @@ With Drive File Stream, files you open are streamed directly from the cloud on-d
 With Drive File Stream, you can work with Drive files directly from the apps you're used to, like Microsoft Word and Adobe Photoshop. Any changes you make to files in those apps are saved automatically to Drive and can be accessed from any of your devices later.
 
 [Android Client](https://play.google.com/store/apps/details?id=com.google.android.apps.docs) | [iOS Client](https://itunes.apple.com/app/google-drive/id507874739)</description>
+    <dependencies>
+      <dependency id="kb3033929" />
+    </dependencies>
   </metadata>
-  <dependencies>
-    <dependency id="kb3033929" />
-  </dependencies>
   <files>
     <file src="tools\**" target="tools" />
   </files>
