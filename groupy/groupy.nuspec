@@ -10,6 +10,7 @@
     <projectUrl>https://www.stardock.com/products/groupy/</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/rasmuskriest/Chocolatey-Packages/master/groupy/groupy.png</iconUrl>
     <licenseUrl>https://www.stardock.com/policies/terms</licenseUrl>
+    <releaseNotes>https://www.stardock.com/products/groupy/history</releaseNotes>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <tags>stardock groupy administrative tabs explorer</tags>
     <summary>Organize multiple applications into grouped tabs on your Windows desktop!</summary>
