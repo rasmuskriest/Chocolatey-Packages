@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>groupy</id>
+    <version>1.17</version>
+    <packageSourceUrl>https://github.com/rasmuskriest/Chocolatey-Packages/tree/master/groupy</packageSourceUrl>
+    <owners>Rasmus Kriest</owners>
+    <title>Groupy</title>
+    <authors>Stardock</authors>
+    <projectUrl>https://www.stardock.com/products/groupy/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/rasmuskriest/Chocolatey-Packages/master/groupy/groupy.png</iconUrl>
+    <licenseUrl>https://www.stardock.com/policies/terms</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <tags>stardock groupy administrative tabs explorer</tags>
+    <summary>Organize multiple applications into grouped tabs on your Windows desktop!</summary>
+    <description>### Organize multiple applications into grouped tabs on your Windows desktop!
+**Key Features**
+* **Drag and drop** applications together to group them under a common tabbed interface
+* **Organize** multiple applications and documents together for convenient access
+* **Group** related tabs together for optimal workflow
+* **Save** groups of applications together for future usage
+* **Manage** tabs in quick and natural ways with the browser-like interface
+* **Add** new tabs to existing groups quickly and easily
+* **Mouseover** tabs to preview the window contents
+* **Copy** files between Explorer tabs. Drag files to the target tab, pause to switch, and then into the target window.
+* **Automatically** group instances of the same application together
+    </description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
