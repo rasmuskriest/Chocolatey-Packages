@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop';
 $packageArgs = @{
     packageName    = $env:ChocolateyPackageName
-    softwareName   = 'PhysX (Legacy)*'
-    fileType       = 'msi'
-    silentArgs     = "/qn /norestart"
-    validExitCodes = @(0, 3010, 1605, 1614, 1641)
+    softwareName   = 'Russian Grammatical Dictionary'
+    fileType       = 'exe'
+    silentArgs     = "/S"
+    validExitCodes = @(0)
 }
 
 $uninstalled = $false
@@ -13,7 +13,7 @@ $uninstalled = $false
 if ($key.Count -eq 1) {
     $key | % { 
         $packageArgs['file'] = "$($_.UninstallString)"
-        if ($packageArgs['fileType'] -eq 'MSI') {
+        if ($packageArgs['fileType'] -eq 'exe') {
             $packageArgs['silentArgs'] = "$($_.PSChildName) $($packageArgs['silentArgs'])"
       
             $packageArgs['file'] = ''
