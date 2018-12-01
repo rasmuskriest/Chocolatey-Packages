@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>russian-grammatical-dictionary</id>
+    <version>13.06</version>
+    <packageSourceUrl>https://github.com/rasmuskriest/Chocolatey-Packages/tree/master/russian-grammatical-dictionary</packageSourceUrl>
+    <owners>Rasmus Kriest</owners>
+    <title>Russian Grammatical Dictionary</title>
+    <authors>Mental Computing</authors>
+    <projectUrl>http://www.solarix.ru/russian-grammar-dictionary-en.shtml</projectUrl>
+    <tags>russian dictionary</tags>
+    <summary>Russian Grammatical Dictionary and Thesaurus</summary>
+    <description>This application is based on the **Contemporary Russian Morphology Database**. Its purpose is to make it easy to search and browse the modern **Russian lexicon**вЂ™s morphological data, including the **declension** and **conjugation** tables for nouns, adjectives, participles, and verbs. You can access the inflection and derivation data for more than 164,000 word entries and 2.3 million word forms via a simple web-style interface. **A Russian thesaurus** is also included, so you can display a wide set of synonyms, antonyms, and derivation links for each word entry.</description>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
