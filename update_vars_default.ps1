@@ -3,7 +3,7 @@
 
 $Env:mail_user = ''
 $Env:mail_pass = ''
-$Env:mail_server = 'smtp-mail.outlook.com'
+$Env:mail_server = 'smtp.office365.com'
 $Env:mail_port = '587'
 $Env:mail_enablessl = 'true'
 

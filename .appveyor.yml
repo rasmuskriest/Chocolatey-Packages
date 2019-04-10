@@ -28,7 +28,7 @@ environment:
     secure: f2fN79N0Li7VJWsxt8OzC1N2rwor0EJV560PiQhKJBA=
   mail_pass:
     secure: Ja6Ah/yVEQVAjiTR8AMP9DprXd/9gSSONrhr2rXOo0c=
-  mail_server: smtp-mail.outlook.com
+  mail_server: smtp.office365.com
   mail_port: 587
   mail_enablessl: true
 
