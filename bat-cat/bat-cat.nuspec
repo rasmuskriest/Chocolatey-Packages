@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>bat-cat</id>
+    <version>0.10.0</version>
+    <packageSourceUrl>https://github.com/rasmuskriest/Chocolatey-Packages/tree/master/batcat</packageSourceUrl>
+    <owners>Rasmus Kriest</owners>
+    <title>bat</title>
+    <authors>David Peter</authors>
+    <projectUrl>https://github.com/sharkdp/bat</projectUrl>
+    <licenseUrl>https://github.com/sharkdp/bat/blob/master/LICENSE-APACHE</licenseUrl>
+    <releaseNotes>https://github.com/sharkdp/bat/releases</releaseNotes>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <tags>cat less</tags>
+    <summary>A cat clone with wings</summary>
+    <description>**Key features:**
+    - Syntax highlighting
+    - Git integration
+    - Show non-printable characters
+    - Automatic paging
+    - File concatenation
+    </description>
+    <dependencies>
+      <dependency id="Less" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
