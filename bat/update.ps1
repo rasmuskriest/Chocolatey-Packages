@@ -18,7 +18,7 @@ function global:au_GetLatest {
     $url = $download_page.links | Where-Object href -match $re | Select-Object -First 1 -expand href
     $url = 'https://github.com' + $url
 
-    $version = $url -split '-|.zip' | Select-Object -Last 1 -Skip 5
+    $version = $url -split '/' | Select-Object -Last 1 -Skip 1
 
     return @{
         URL32   = $url
