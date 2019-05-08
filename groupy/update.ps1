@@ -19,7 +19,7 @@ function global:au_GetLatest {
     $ver = "\d\.\d{0,}"
 
     $version = (($releases.AllElements | Where-Object { $_.TagName -eq $tag -and $_.innerText -Match $re }).innerText | Select-Object -First 1) -Match $ver
-    $url = ( -Join ("http://storage.stardock.com/files/current/Groupy", $Matches[0], "_setup_sd.exe") )
+    $url = ( -Join ("https://cdn.stardock.us/downloads/public/software/groupy/Groupy", $Matches[0], "_setup_sd.exe") )
 
     return @{
         URL32   = $url
