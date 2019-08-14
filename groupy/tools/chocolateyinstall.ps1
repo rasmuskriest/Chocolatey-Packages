@@ -1,8 +1,8 @@
-﻿$ErrorActionPreference = 'Stop';
+$ErrorActionPreference = 'Stop';
 
 $packageName = $env:ChocolateyPackageName
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'http://storage.stardock.com/files/current/Groupy1.17_setup_sd.exe'
+$url = 'https://cdn.stardock.us/downloads/public/software/groupy/Groupy1.25_setup_sd.exe'
 $killscript = Join-Path $toolsDir "groupykillprocess.ps1"
 
 $killjob = (Start-Process powershell $killscript -PassThru).ID
@@ -13,9 +13,9 @@ $packageArgs = @{
     fileType       = 'exe'
     url            = $url
     softwareName   = 'Stardock Groupy*'
-    checksum       = '1ee0fa6a4c7873b9a3e181f60dddcaba8f7c63e9b2007c1a69dc9d26c81249e0'
+    checksum       = '03330554E1A0E45907F5B8067F05AEDE052C4A3ACE27FCE0727E62837A790182'
     checksumType   = 'sha256'
-    silentArgs     = '/SILENT /NOREBOOT'
+    silentArgs     = '/S'
     validExitCodes = @(0, 9)
 }
 
