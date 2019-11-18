@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>gam</id>
+    <version>4.96</version>
+    <packageSourceUrl>https://github.com/rasmuskriest/Chocolatey-Packages/tree/master/gam</packageSourceUrl>
+    <owners>Rasmus Kriest</owners>
+    <title>bat</title>
+    <authors>David Peter</authors>
+    <projectUrl>https://github.com/jay0lee/GAM</projectUrl>
+    <licenseUrl>https://github.com/jay0lee/GAM/blob/master/src/LICENSE</licenseUrl>
+    <releaseNotes>https://github.com/jay0lee/GAM/releases</releaseNotes>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <tags>google cloud gsuite</tags>
+    <summary>command line management for Google G Suite</summary>
+    <description>GAM is a command line tool for Google G Suite Administrators to manage domain and user settings quickly and easily.</description>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
