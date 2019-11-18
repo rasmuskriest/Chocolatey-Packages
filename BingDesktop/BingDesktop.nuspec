@@ -2,10 +2,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>BingDesktop</id>
-    <version>1.3.478.0</version>
+    <version>1.3.478.2019</version>
     <packageSourceUrl>https://github.com/rasmuskriest/Chocolatey-Packages/tree/master/BingDesktop</packageSourceUrl>
     <owners>Rasmus Kriest</owners>
-    <title>Bing Desktop</title>
+    <title>[Deprecated] Bing Desktop</title>
     <authors>Microsoft</authors>
     <projectUrl>http://www.bing.com/explore/desktop</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/rasmuskriest/Chocolatey-Packages/master/BingDesktop/BingDesktop.png</iconUrl>
@@ -13,13 +13,14 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <tags>bingdesktop bing wallpaper search</tags>
     <summary>Bing Desktop</summary>
-    <description>With the Bing Desktop app, you get the daily homepage image, quick access to search, the latest news, your Facebook newsfeed, and more, right where you want it - on your desktop.</description>
-    <releaseNotes>Update to latest release</releaseNotes>
+    <description>With the Bing Desktop app, you get the daily homepage image, quick access to search, the latest news, your Facebook newsfeed, and more, right where you want it - on your desktop.
+    
+    ### Note
+
+    Bing Desktop is not supported anymore by Microsoft, therefore this package has been deprecated in late 2019.</description>
+    <releaseNotes>Deprecated as installer is not available anymore</releaseNotes>
     <dependencies>
       <dependency id="autohotkey.portable" />
     </dependencies>
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
 </package>
