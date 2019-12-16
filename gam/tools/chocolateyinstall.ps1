@@ -3,6 +3,11 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url = 'https://github.com/jay0lee/GAM/releases/download/v4.96/gam-4.96-windows-x86.msi'
 $url64 = 'https://github.com/jay0lee/GAM/releases/download/v4.96/gam-4.96-windows-x86_64.msi'
 
+$ahkExe = 'AutoHotKey'
+$ahkFile = Join-Path $toolsDir "gaminstall.ahk"
+
+Start-Process $ahkExe $ahkFile
+
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   unzipLocation  = $toolsDir

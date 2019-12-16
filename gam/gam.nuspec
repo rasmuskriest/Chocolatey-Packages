@@ -5,7 +5,7 @@
     <version>4.96</version>
     <packageSourceUrl>https://github.com/rasmuskriest/Chocolatey-Packages/tree/master/gam</packageSourceUrl>
     <owners>Rasmus Kriest</owners>
-    <title>bat</title>
+    <title>gam</title>
     <authors>David Peter</authors>
     <projectUrl>https://github.com/jay0lee/GAM</projectUrl>
     <licenseUrl>https://github.com/jay0lee/GAM/blob/master/src/LICENSE</licenseUrl>
@@ -15,6 +15,7 @@
     <summary>command line management for Google G Suite</summary>
     <description>GAM is a command line tool for Google G Suite Administrators to manage domain and user settings quickly and easily.</description>
     <dependencies>
+      <dependency id="autohotkey.portable" />
     </dependencies>
   </metadata>
   <files>
