@@ -4,14 +4,14 @@ $version = $env:chocolateyPackageVersion
 $packageName = $env:chocolateyPackageName
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-$url = 'https://github.com/sharkdp/bat/releases/download/v0.10.0/bat-v0.10.0-x86_64-pc-windows-msvc.zip'
+$url = 'https://github.com/sharkdp/bat/releases/download/v0.12.1/bat-v0.12.1-x86_64-pc-windows-msvc.zip'
 
 $packageArgs = @{
     packageName   = $packageName
     unzipLocation = $toolsDir
     fileType      = 'exe'
     url           = $url
-    checksum      = '84e6b1408d62811ccddce2361915f0f3bf98b196bfa03498e6c9909da37643fb'
+    checksum      = 'd6136b0133ad7f16029f7b996fc36cfb9af83828420e4a29d9798249fb8b37df'
     checksumType  = "sha256"
 }
 

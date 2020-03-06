@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>bat</id>
-    <version>0.10.0</version>
+    <version>0.12.1.2020</version>
     <packageSourceUrl>https://github.com/rasmuskriest/Chocolatey-Packages/tree/master/bat</packageSourceUrl>
     <owners>Rasmus Kriest</owners>
     <title>bat</title>
@@ -22,6 +22,7 @@
     </description>
     <dependencies>
       <dependency id="Less" />
+      <dependency id="vcredist140" />
     </dependencies>
   </metadata>
   <files>
