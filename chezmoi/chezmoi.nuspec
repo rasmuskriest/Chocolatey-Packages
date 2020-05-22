@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>chezmoi</id>
+    <version>1.8.1</version>
+    <packageSourceUrl>https://github.com/rasmuskriest/Chocolatey-Packages/tree/master/chezmoi</packageSourceUrl>
+    <owners>Rasmus Kriest</owners>
+    <title>chezmoi</title>
+    <authors>Tom Payne</authors>
+    <projectUrl>https://github.com/twpayne/chezmoi</projectUrl>
+    <licenseUrl>https://github.com/twpayne/chezmoi/blob/master/LICENSE</licenseUrl>
+    <releaseNotes>https://github.com/twpayne/chezmoi/releases</releaseNotes>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <tags>dotfiles vcsh</tags>
+    <summary>Manage your dotfiles across multiple machines, securely.</summary>
+    <description>chezmoi helps you manage your personal configuration files (dotfiles, like ´´´~/.bashrc´´´) across multiple machines.
+
+chezmoi is helpful if you have spent time customizing the tools you use (e.g. shells, editors, and version control systems) and want to keep machines running different accounts (e.g. home and work) and/or different operating systems (e.g. Linux, macOS, and Windows) in sync, while still being able to easily cope with differences from machine to machine.
+
+chezmoi has strong support for security, allowing you to manage secrets (e.g. passwords, access tokens, and private keys) securely and seamlessly using a password manager of your choice or GnuPG encryption.
+
+In all cases you only need to maintain a single source of truth: a single branch in a version control system (e.g. git) for everything public and a single password manager for all your secrets.
+
+If you do not personalize your configuration or only ever use a single operating system with a single account and none of your dotfiles contain secrets then you don't need chezmoi.
+    </description>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
