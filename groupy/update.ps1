@@ -19,7 +19,9 @@ function global:au_GetLatest {
     $ver = "\d\.\d{0,}"
 
     $version = (($releases.AllElements | Where-Object { $_.TagName -eq $tag -and $_.innerText -Match $re }).innerText | Select-Object -First 1) -Match $ver
-    $url = ( -Join ("https://cdn.stardock.us/downloads/public/software/groupy/Groupy", $Matches[0], "_setup_sd.exe") )
+    $url "https://cdn.stardock.us/downloads/public/software/groupy/Groupy-sd-setup.exe"
+    # Old $url including the specific version. Keeping for now as Stardock changes their URL scheme often.
+    # $url = ( -Join ("https://cdn.stardock.us/downloads/public/software/groupy/Groupy", $Matches[0], "_setup_sd.exe") )
 
     return @{
         URL32   = $url
