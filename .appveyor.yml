@@ -20,7 +20,7 @@ environment:
   # Github token to commit pushed packages to repository
   github_user_repo: rasmuskriest/Chocolatey-Packages
   github_api_key:
-    secure: J2tP8dflcrH0VSCOe3vBEmcaPNHORc5FrYEoXrM6sc7iAV9jzko5Yu4AgdAk92gB
+    secure: 7E5CYqZ1SYGPZfnBp9Y1zudQXCPu4/jxO+qSO3gUb98VjnBTjB55sQqYzd7YyfF7
 
 
   # Mail credentials - for error notifications
