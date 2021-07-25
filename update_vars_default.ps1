@@ -1,6 +1,7 @@
 # AU Packages Template: https://github.com/majkinetor/au-packages-template
 # Copy this file to update_vars.ps1 and set the variables there. Do not include it in the repository.
 
+$Env:mail_from = ''
 $Env:mail_user = ''
 $Env:mail_pass = ''
 $Env:mail_server = 'smtp.office365.com'
