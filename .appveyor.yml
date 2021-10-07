@@ -24,6 +24,8 @@ environment:
 
 
   # Mail credentials - for error notifications
+  mail_from:
+    secure: f2fN79N0Li7VJWsxt8OzC1N2rwor0EJV560PiQhKJBA=
   mail_user:
     secure: f2fN79N0Li7VJWsxt8OzC1N2rwor0EJV560PiQhKJBA=
   mail_pass:
