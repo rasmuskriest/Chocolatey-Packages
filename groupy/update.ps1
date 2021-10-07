@@ -16,7 +16,7 @@ function global:au_GetLatest {
 
     $tag = "h2"
     $re = "\w[Groupy]\s\d"
-    $ver = "\d\.\d{0,}(\n|\.\d{0,})"
+    $ver = "\d\.\d{0,}(\n|$|\.\d{0,})"
 
     $version = (($releases.AllElements | Where-Object { $_.TagName -eq $tag -and $_.innerText -Match $re }).innerText | Select-Object -First 1) -Match $ver
     $url = "https://cdn.stardock.us/downloads/public/software/groupy/Groupy_setup.exe"
