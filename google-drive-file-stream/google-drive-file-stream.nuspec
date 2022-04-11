@@ -2,10 +2,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>google-drive-file-stream</id>
-    <version>45.0.12.0</version>
+    <version>56.0.11.2022</version>
     <packageSourceUrl>https://github.com/rasmuskriest/Chocolatey-Packages/tree/master/google-drive-file-stream</packageSourceUrl>
     <owners>Rasmus Kriest</owners>
-    <title>Google Drive for desktop (formerly File Stream)</title>
+    <title>[Deprecated] Google Drive for desktop (formerly File Stream)</title>
     <authors>Google Inc.</authors>
     <projectUrl>https://www.google.com/drive/download/</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/rasmuskriest/Chocolatey-Packages/master/google-drive-file-stream/google-drive-file-stream.png</iconUrl>
@@ -15,12 +15,14 @@
     <summary>A new way to access all of your Google Drive files on demand, directly from your Mac or PC, without using up all of your disk space.</summary>
     <description>With Drive for desktop, you stream your Drive files directly from the cloud to your Mac or PC, freeing up disk space and network bandwidth. Because Drive files are stored in the cloud, any changes you or your collaborators make are automatically updated everywhere. You’ll always have the latest version.
       
-      You can also make Drive files available for offline access. These cached files sync back to the cloud when you're online, so the latest version is available on all your devices.</description>
+      You can also make Drive files available for offline access. These cached files sync back to the cloud when you're online, so the latest version is available on all your devices.
+    
+      ### Note
+
+      Google Drive was formerly known as Google Drive File Stream.
+      This is just a metapackage for the latest Google Drive. Have a look at the [googledrive package](/packages/googledrive) for more details</description>
     <dependencies>
-      <dependency id="kb3033929" />
+      <dependency id="googledrive" version="56.0.11.0" />
     </dependencies>
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
 </package>
