@@ -1,6 +1,6 @@
 Import-Module au
 
-$releases = 'https://github.com/jay0lee/GAM/releases'
+$releases = 'https://github.com/GAM-team/GAM/releases'
 
 function global:au_SearchReplace {
     @{

@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://github.com/jay0lee/GAM/releases/download/v6.08/gam-6.08-windows-x86.msi'
-$url64 = 'https://github.com/jay0lee/GAM/releases/download/v6.08/gam-6.08-windows-x86_64.msi'
+$url = 'https://github.com/GAM-team/GAM/releases/download/v6.18/gam-6.18-windows-x86.msi'
+$url64 = 'https://github.com/GAM-team/GAM/releases/download/v6.18/gam-6.18-windows-x86_64.msi'
 
 $ahkExe = 'AutoHotKey'
 $ahkFile = Join-Path $toolsDir "gaminstall.ahk"
@@ -17,9 +17,9 @@ $packageArgs = @{
 
   softwareName   = 'gam*'
 
-  checksum       = '93d81e2d535a4f4d7b5b2773bc4e342f8ba2f397bb691953d580cbb68748a34f'
+  checksum       = 'd495be8f9c6c785c70ab0b645e61d4d4aaa7c4ca1ed0cb75da40b87dba09a194'
   checksumType   = 'sha256'
-  checksum64     = '6c59275e75569ef496a652805ad18d45cc05065e07f9ffcf6bbc6e8e424fdd34'
+  checksum64     = '339151f0ff0f7efdd46e9e6b9a405321ede4d056bd4a250bd92051fc275ea38a'
   checksumType64 = 'sha256'
 
   silentArgs     = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
