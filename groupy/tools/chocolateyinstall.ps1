@@ -26,7 +26,7 @@ $packageArgs = @{
 $min='6.1.7601'
 
 If ( $OSVer -lt [version]$min ) {
-  Write-Warning "*** Stardock Groupy requires a desktop OS running Windows 7 or higher... ***`n"
+  Write-Warning "*** Stardock Groupy requires an OS running Windows 7 or higher... ***`n"
   throw
 } Else {
   Install-ChocolateyPackage @packageArgs
