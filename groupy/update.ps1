@@ -16,7 +16,7 @@ function global:au_GetLatest {
     
     $url = "https://cdn.stardock.us/downloads/public/software/groupy/Groupy_setup.exe"
 
-    $re = "SoundPackager (?<version>[\d\.]+[\d\.]+)"
+    $re = "Groupy (?<version>[\d\.]+[\d\.]+)"
     $version = $releases -match $re | ForEach-Object { $Matches.version }
 
     return @{
