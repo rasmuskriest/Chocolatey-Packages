@@ -3,8 +3,8 @@ $packageArgs = @{
     packageName    = $env:ChocolateyPackageName
     softwareName   = 'Stardock Groupy*'
     fileType       = 'exe'
-    silentArgs     = '/SILENT /NOREBOOT'
-    validExitCodes = @(0)
+    silentArgs     = '"/U:' + ${env:ProgramFiles(x86)} + '\Stardock\Groupy\Uninstall\uninstall.xml"'
+    validExitCodes = @(0, 3010, 1605, 1614, 1641)
 }
 
 $uninstalled = $false
@@ -19,7 +19,9 @@ if ($key.Count -eq 1) {
             $packageArgs['file'] = ''
         }
 
-        Uninstall-ChocolateyPackage @packageArgs
+        #Uninstall-ChocolateyPackage @packageArgs
+        Write-Warning "`nStardock Groupy is about to uninstall. If asked to reboot, select 'No', however, you must reboot prior to reinstalling the package.`n`nSelect [Y] to continue.`n"
+        ${env:ProgramFiles(x86)} + "\Stardock\Groupy\uninstall.exe" + " $($packageArgs['silentArgs'])"
     }
 }
 elseif ($key.Count -eq 0) {
