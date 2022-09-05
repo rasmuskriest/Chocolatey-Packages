@@ -4,7 +4,7 @@
     <id>groupy</id>
     <version>1.49.1</version>
     <packageSourceUrl>https://github.com/rasmuskriest/Chocolatey-Packages/tree/master/groupy</packageSourceUrl>
-    <owners>Rasmus Kriest</owners>
+    <owners>elerador virtualex</owners>
     <title>Groupy</title>
     <authors>Stardock</authors>
     <projectUrl>https://www.stardock.com/products/groupy/</projectUrl>
@@ -12,7 +12,7 @@
     <licenseUrl>https://www.stardock.com/policies/terms</licenseUrl>
     <releaseNotes>https://www.stardock.com/products/groupy/history</releaseNotes>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <tags>stardock groupy administrative tabs explorer</tags>
+    <tags>stardock objectdesktop suite groupy administrative tabs explorer</tags>
     <summary>Organize multiple applications into grouped tabs on your Windows desktop!</summary>
     <description>### Organize multiple applications into grouped tabs on your Windows desktop!
 **Key Features**
