@@ -12,11 +12,11 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
+    $releases = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $re = "-x86_64-pc-windows-msvc.zip"
-    $url = $download_page.links | Where-Object href -match $re | Select-Object -First 1 -expand href
-    $url = 'https://github.com' + $url
+    $re = "v(?<version>[\d]*\.[\d]*\.[\d]*)"
+    $version = $releases -match $re | ForEach-Object { $Matches.version }
+    $url = 'https://github.com/sharkdp/bat/releases/download/v' + $version + "/bat-v" + $version + "-x86_64-pc-windows-msvc.zip"
 
     $version = $url -split '/' | Select-Object -Last 1 -Skip 1
 
