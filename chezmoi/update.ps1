@@ -14,16 +14,12 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
+    $releases = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $re = '_windows_i386.zip'
-    $re64 = "_windows_amd64.zip"
-    $url = $download_page.links | Where-Object href -match $re | Select-Object -First 1 -expand href
-    $url = 'https://github.com' + $url
-    $url64 = $download_page.links | Where-Object href -match $re64 | Select-Object -First 1 -expand href
-    $url64 = 'https://github.com' + $url64
-
-    $version = $url -split '/' | Select-Object -Last 1 -Skip 1
+    $re = 'v(?<version>[\d]*\.[\d]*\.[\d]*)'
+    $version = $releases -match $re | ForEach-Object { $Matches.version }
+    $url = 'https://github.com/twpayne/chezmoi/releases/download/v' + $version + '/chezmoi_' + $version + '_windows_i386.zip'
+    $url64 = 'https://github.com/twpayne/chezmoi/releases/download/v' + $version + '/chezmoi_' + $version + '_windows_amd64.zip'
 
     return @{
         URL     = $url

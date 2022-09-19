@@ -14,16 +14,12 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
+    $releases = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $re = '-windows-x86.msi'
-    $re64 = "-windows-x86_64.msi"
-    $url = $download_page.links | Where-Object href -match $re | Select-Object -First 1 -expand href
-    $url = 'https://github.com' + $url
-    $url64 = $download_page.links | Where-Object href -match $re64 | Select-Object -First 1 -expand href
-    $url64 = 'https://github.com' + $url64
-
-    $version = $url -split '/' | Select-Object -Last 1 -Skip 1
+    $re = 'GAM (?<version>[\d]*\.[\d]*)'
+    $version = $releases -match $re | ForEach-Object { $Matches.version }
+    $url = 'https://github.com/GAM-team/GAM/releases/download/v' + $version + '/gam-' + $version + '-windows-x86.msi'
+    $url64 = 'https://github.com/GAM-team/GAM/releases/download/v' + $version + '/gam-' + $version + '-windows-x86_64.msi'
 
     return @{
         URL     = $url
