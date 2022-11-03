@@ -9,7 +9,7 @@
     <authors>GAM-team</authors>
     <projectUrl>https://github.com/GAM-team/GAM</projectUrl>
     <licenseUrl>https://github.com/GAM-team/GAM/blob/main/LICENSE</licenseUrl>
-    <releaseNotes>https://github.com/GAM-team/GAM/rel eases</releaseNotes>
+    <releaseNotes>https://github.com/GAM-team/GAM/releases</releaseNotes>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <tags>google cloud gsuite</tags>
     <summary>command line management for Google G Suite</summary>
