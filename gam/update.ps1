@@ -18,8 +18,9 @@ function global:au_GetLatest {
 
     $re = 'GAM (?<version>[\d]*\.[\d]*)'
     $version = $releases -match $re | ForEach-Object { $Matches.version }
-    $url = 'https://github.com/GAM-team/GAM/releases/download/v' + $version + '/gam-' + $version + '-windows-x86.msi'
-    $url64 = 'https://github.com/GAM-team/GAM/releases/download/v' + $version + '/gam-' + $version + '-windows-x86_64.msi'
+    $tag = (($releases.links | where outerHTML -match $re | select href)[0].href -Split "/")[-1]
+    $url = 'https://github.com/GAM-team/GAM/releases/download/' + $tag + '/gam-' + $version + '-windows-x86.msi'
+    $url64 = 'https://github.com/GAM-team/GAM/releases/download/' + $tag + '/gam-' + $version + '-windows-x86_64.msi'
 
     return @{
         URL     = $url
