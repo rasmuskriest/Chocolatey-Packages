@@ -2,10 +2,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>groupy</id>
-    <version>1.49.1</version>
+    <version>1.50.0.20230614</version>
     <packageSourceUrl>https://github.com/rasmuskriest/Chocolatey-Packages/tree/master/groupy</packageSourceUrl>
     <owners>elerador virtualex</owners>
-    <title>Groupy</title>
+    <title>Groupy (v1)</title>
     <authors>Stardock</authors>
     <projectUrl>https://www.stardock.com/products/groupy/</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/rasmuskriest/Chocolatey-Packages/master/groupy/groupy.png</iconUrl>
@@ -13,8 +13,10 @@
     <releaseNotes>https://www.stardock.com/products/groupy/history</releaseNotes>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <tags>stardock objectdesktop suite groupy administrative tabs explorer</tags>
-    <summary>Organize multiple applications into grouped tabs on your Windows desktop!</summary>
-    <description>### Organize multiple applications into grouped tabs on your Windows desktop!
+    <summary>Version 1 of Groupy - Organize multiple applications into grouped tabs on your Windows desktop!</summary>
+    <description>Version 1 of Groupy, this package will not be updated to version 2 as it requires a new license.
+
+### Organize multiple applications into grouped tabs on your Windows desktop!
 **Key Features**
 * **Drag and drop** applications together to group them under a common tabbed interface
 * **Organize** multiple applications and documents together for convenient access
